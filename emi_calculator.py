@@ -1,6 +1,6 @@
 def calculate_emi(principal, annual_rate, years):
 
-```
+
 monthly_rate = annual_rate / 12 / 100
 months = years * 12
 
@@ -12,7 +12,7 @@ emi = (
 )
 
 return round(emi, 2)
-```
+
 
 loan_amount = float(input("Enter loan amount: "))
 interest_rate = float(input("Enter annual interest rate (%): "))
